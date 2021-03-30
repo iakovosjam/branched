@@ -5,7 +5,9 @@ agent any
 	}
 	stages{
 	 stage('first'){
-		echo 'something'
+	  steps{
+	    echo 'something'
+	  }
 	 }
 	}
 }
